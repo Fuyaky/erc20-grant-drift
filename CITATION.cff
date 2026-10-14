@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+title: "A Grant-Indexed Measurement of How ERC-20 Approvals Outlive the Code They Trusted — artifact"
+authors:
+  - family-names: Khassanov
+    given-names: Fakhreddin
+    orcid: "https://orcid.org/0009-0000-5439-8171"
+  - family-names: Rzayeva
+    given-names: Leila
+    orcid: "https://orcid.org/0000-0002-3382-4685"
+  - family-names: Alibek
+    given-names: Aigerim
+    orcid: "https://orcid.org/0009-0002-0869-9066"
+  - family-names: Tazhibekov
+    given-names: Iskander
+    orcid: "https://orcid.org/0009-0003-6517-9355"
+  - family-names: Myrzatay
+    given-names: Ali
+    orcid: "https://orcid.org/0000-0002-5339-2437"
+  - family-names: Zhetpisbayeva
+    given-names: Aliya
+    orcid: "https://orcid.org/0009-0004-9542-5817"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "A Grant-Indexed Measurement of How ERC-20 Approvals Outlive the Code They Trusted"
+  conference:
+    name: "5th International Workshop on Blockchain Security and Scalability (BSS 2026), IEEE Blockchain 2026"
+  year: 2026
+  authors:
+    - family-names: Khassanov
+      given-names: Fakhreddin
+    - family-names: Rzayeva
+      given-names: Leila
+    - family-names: Alibek
+      given-names: Aigerim
+    - family-names: Tazhibekov
+      given-names: Iskander
+    - family-names: Myrzatay
+      given-names: Ali
+    - family-names: Zhetpisbayeva
+      given-names: Aliya

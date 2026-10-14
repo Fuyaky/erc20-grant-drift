@@ -1,0 +1,560 @@
+{
+ "transition": {
+  "LIVE->NON_PROXY": 44615,
+  "MUTATED->MUTATED": 3030,
+  "PROXY_STABLE->MUTATED": 49,
+  "PROXY_STABLE->PROXY_STABLE": 2259,
+  "LIVE->MUTATED": 2374,
+  "LIVE->PROXY_STABLE": 577,
+  "EOA->CODELESS": 1727,
+  "LIVE->CODELESS": 9,
+  "LIVE->DEPLOYED_LATER": 1
+ },
+ "table1": {
+  "NON_PROXY": {
+   "n": 44615,
+   "pct": 81.65114108453359,
+   "lo": null,
+   "hi": null,
+   "spenders": 1552
+  },
+  "PROXY_STABLE": {
+   "n": 2836,
+   "pct": 5.190241759850662,
+   "lo": 3.5396415942053743,
+   "hi": 7.473227651326144,
+   "spenders": 392
+  },
+  "MUTATED": {
+   "n": 5453,
+   "pct": 9.979685584085212,
+   "lo": 4.276601284499218,
+   "hi": 17.624521072796934,
+   "spenders": 166
+  },
+  "CODELESS": {
+   "n": 1736,
+   "pct": 3.1771014439706446,
+   "lo": 1.9954000124323987,
+   "hi": 4.892021931296855,
+   "spenders": 360
+  },
+  "DEPLOYED_LATER": {
+   "n": 1,
+   "pct": 0.0018301275598909244,
+   "lo": 0.0,
+   "hi": 0.006327778949588694,
+   "spenders": 1
+  }
+ },
+ "mut_by_kind": {
+  "1967": 3079,
+  "diamond": 2349,
+  "beacon": 24,
+  "zos": 1
+ },
+ "stable_by_kind": {
+  "1967": 2259,
+  "diamond": 363,
+  "zos": 55,
+  "beacon": 159
+ },
+ "codeless_7702": {
+  "spenders": 8,
+  "grants": 24
+ },
+ "deployed_later": 1,
+ "clones": {
+  "spenders": 165,
+  "grants": 897
+ },
+ "drift_since_collection": 49,
+ "self_pairs": 14,
+ "standing": {
+  "NON_PROXY": {
+   "grants": 44615,
+   "pairs": 18138,
+   "standing_pairs": 8195,
+   "funded_pairs": 3606,
+   "standing_pct": 45.18138714301467,
+   "funded_pct": 19.880913000330796,
+   "unl_standing_pct": 29.507112140258023,
+   "exposed_usd": 16801468.905303758,
+   "median_exposed": 0.060292,
+   "grant_standing_pct": 31.55440995180993
+  },
+  "PROXY_STABLE": {
+   "grants": 2836,
+   "pairs": 1622,
+   "standing_pairs": 541,
+   "funded_pairs": 245,
+   "standing_pct": 33.353884093711464,
+   "funded_pct": 15.104808877928484,
+   "unl_standing_pct": 22.009864364981503,
+   "exposed_usd": 11694475.23485634,
+   "median_exposed": 0.285813,
+   "grant_standing_pct": 27.0098730606488
+  },
+  "MUTATED": {
+   "grants": 5453,
+   "pairs": 2918,
+   "standing_pairs": 1117,
+   "funded_pairs": 445,
+   "standing_pct": 38.27964359150103,
+   "funded_pct": 15.25017135023989,
+   "unl_standing_pct": 22.30980123372173,
+   "exposed_usd": 5280995.648037665,
+   "median_exposed": 0.47421349999999995,
+   "grant_standing_pct": 24.99541536768751
+  },
+  "CODELESS": {
+   "grants": 1736,
+   "pairs": 1605,
+   "standing_pairs": 1555,
+   "funded_pairs": 233,
+   "standing_pct": 96.88473520249221,
+   "funded_pct": 14.517133956386292,
+   "unl_standing_pct": 74.45482866043614,
+   "exposed_usd": 149784.8464003254,
+   "median_exposed": 0.011982,
+   "grant_standing_pct": 96.1405529953917
+  },
+  "DEPLOYED_LATER": {
+   "grants": 1,
+   "pairs": 1,
+   "standing_pairs": 1,
+   "funded_pairs": 1,
+   "standing_pct": 100.0,
+   "funded_pct": 100.0,
+   "unl_standing_pct": 0.0,
+   "exposed_usd": 0.400661,
+   "median_exposed": 0.400661,
+   "grant_standing_pct": 100.0
+  },
+  "ALL": {
+   "grants": 54641,
+   "pairs": 24284,
+   "standing_pairs": 11409,
+   "funded_pairs": 4530,
+   "standing_pct": 46.981551638939216,
+   "funded_pct": 18.654257947619833,
+   "unl_standing_pct": 31.111019601383628,
+   "exposed_usd": 33926725.03525908,
+   "median_exposed": 0.070381,
+   "grant_standing_pct": 32.71719038817005
+  }
+ },
+ "exposed_total_dedup_usd": 30365902.175866,
+ "exposed_top_spenders": [
+  [
+   "0x4da27a545c0c5b758a6ba100e3a049001de870f5",
+   8373962.592379404
+  ],
+  [
+   "0xec6fc9be2d5e505b40a2df8b0622cd25333823db",
+   7988729.989519
+  ],
+  [
+   "0x604dd02d620633ae427888d41bfd15e38483736e",
+   4470115.278509
+  ],
+  [
+   "0xfaf17849fb05a11a4e233f221bac99ca43fc83f8",
+   2652672.5191906495
+  ],
+  [
+   "0x000000000022d473030f116ddee9f6b43ac78ba3",
+   1716202.998446464
+  ],
+  [
+   "0xbbbbbbb520d69a9775e85b458c58c648259fad5f",
+   977542.4553028772
+  ],
+  [
+   "0xd82fa167727a4dc6d6f55830a2c47abbb4b3a0f8",
+   952291.6731983337
+  ],
+  [
+   "0x111111125421ca6dc452d289314280a0f8842a65",
+   948306.6454189705
+  ],
+  [
+   "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+   624554.3434020311
+  ],
+  [
+   "0xd82e10b9a4107939e55fcca9b53a9ede6cf2fc46",
+   596927.3444657607
+  ]
+ ],
+ "exposure_dist": {
+  "n": 4382,
+  "total": 33926725.03525908,
+  "top1": 7988729.989519,
+  "top10": 25506452.75348286,
+  "ge1k": 210,
+  "ge100k": 33,
+  "median": 0.070381
+ },
+ "unlimited": {
+  "NON_PROXY": 17.1332511487168,
+  "PROXY_STABLE": 15.514809590973202,
+  "MUTATED": 15.587749862461031,
+  "CODELESS": 66.64746543778801,
+  "DEPLOYED_LATER": 0.0
+ },
+ "codeless_split": {
+  "operator(>=1000)": {
+   "grants": 1300,
+   "spenders": 146,
+   "unl_pct": 83.15384615384616,
+   "funded_pairs": 160,
+   "exposed_usd": 149454.6547353254
+  },
+  "low(10-999)": {
+   "grants": 325,
+   "spenders": 169,
+   "unl_pct": 20.0,
+   "funded_pairs": 65,
+   "exposed_usd": 210.736557
+  },
+  "dormant(<10)": {
+   "grants": 111,
+   "spenders": 45,
+   "unl_pct": 9.90990990990991,
+   "funded_pairs": 8,
+   "exposed_usd": 119.455108
+  }
+ },
+ "codeless_top1_pct": 13.36405529953917,
+ "codeless_top10_pct": 53.225806451612904,
+ "auth_now": {
+  "CONTRACT-OTHER": 1850,
+  "UNKNOWN": 272,
+  "EOA-CONTROLLED": 681,
+  "TIMELOCK": 2012,
+  "MULTISIG": 638
+ },
+ "auth_grant": {
+  "CONTRACT-OTHER": 1846,
+  "UNKNOWN": 265,
+  "EOA-CONTROLLED": 707,
+  "TIMELOCK": 1616,
+  "MULTISIG": 1019
+ },
+ "auth_cross": {
+  "CONTRACT-OTHER->CONTRACT-OTHER": 1846,
+  "UNKNOWN->UNKNOWN": 265,
+  "EOA-CONTROLLED->EOA-CONTROLLED": 677,
+  "TIMELOCK->TIMELOCK": 1607,
+  "MULTISIG->TIMELOCK": 381,
+  "MULTISIG->MULTISIG": 633,
+  "EOA-CONTROLLED->TIMELOCK": 24,
+  "EOA-CONTROLLED->MULTISIG": 3,
+  "EOA-CONTROLLED->CONTRACT-OTHER": 3,
+  "TIMELOCK->UNKNOWN": 7,
+  "TIMELOCK->MULTISIG": 2,
+  "MULTISIG->EOA-CONTROLLED": 4,
+  "MULTISIG->CONTRACT-OTHER": 1
+ },
+ "auth_paths_now": {
+  "uups owner()": 2912,
+  "no-owner": 272,
+  "admin->owner": 929,
+  "provider->owner": 1173,
+  "admin(contract)": 138,
+  "beacon->owner": 24,
+  "admin(eoa)": 3,
+  "getOwner()": 2
+ },
+ "auth_spenders_now": {
+  "EOA-CONTROLLED": 39,
+  "TIMELOCK": 45,
+  "UNKNOWN": 20,
+  "MULTISIG": 49,
+  "CONTRACT-OTHER": 13
+ },
+ "single_key_either": 711,
+ "gov": {
+  "0x002910769444bd0d715cc4c6f2a90d92c5e6695e": {
+   "threshold": 3,
+   "n_owners": 138823685470596447615133935048431668603090746986,
+   "delay_s": null
+  },
+  "0x12917e06b55995e7a5d73681ce491774c73b7c6a": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0x15c1eae4187991e36373f9b6d95a48cd9f0f7ec3": {
+   "threshold": 1,
+   "n_owners": 1252936185142136576932856239317944399792108778750,
+   "delay_s": null
+  },
+  "0x15ee3141e69483cd8fe366f6092ab123fd04fa12": {
+   "threshold": 2,
+   "n_owners": 713723216100670722708152062508105637129402165816,
+   "delay_s": null
+  },
+  "0x1a2a16aaeb1e2f5032c56c12061addeae28e6173": {
+   "threshold": 3,
+   "n_owners": 170293012546991514698726547920970879121949245330,
+   "delay_s": null
+  },
+  "0x1fe04bc15cf2c5a2d41a0b3a96725596676eba1e": {
+   "threshold": 5,
+   "n_owners": 876567566326772462106139567815185070852884294045,
+   "delay_s": null
+  },
+  "0x22605a12cb77fe420b0cc1263ceb58a77352fdc1": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 0
+  },
+  "0x2386dc45added673317ef068992f19421b481f4c": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0x2cf3cfb17774ce0cfa34bb3f3761904e7fc3fadb": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": null
+  },
+  "0x35918cde7233f2dd33fa41ae3cb6ae0e42e0e69f": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0x369e6f597e22eab55ffb173c6d9cd234bd699111": {
+   "threshold": 1,
+   "n_owners": 1098620162954942073428863543482332865632495446573,
+   "delay_s": null
+  },
+  "0x375eafe4348c6aa851cdfa5f84ec268f73643235": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0x3965ac3d295641e452e0ea896a086a9cd7c6c5b6": {
+   "threshold": 3,
+   "n_owners": 409523589607540620438509604765861724078925578859,
+   "delay_s": null
+  },
+  "0x3a23919d4aa39e096e9d6420fd6a2861a20b19e5": {
+   "threshold": 4,
+   "n_owners": 708520314995669468859861028237295912959915524857,
+   "delay_s": null
+  },
+  "0x3d18480cc32b6ab3b833dcabd80e76cfd41c48a9": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 604800
+  },
+  "0x3fe4b6a817c7983465c9ac88c538bda611dadb9c": {
+   "threshold": 3,
+   "n_owners": 829441165042849914365146332969631971461161720818,
+   "delay_s": null
+  },
+  "0x4092a77baf58fef0309452ceacb09221e556e112": {
+   "threshold": 2,
+   "n_owners": 1097228908313399730451345776161858092876558190134,
+   "delay_s": null
+  },
+  "0x42f38ec5a75accec50054671233dfac9c0e7a3f6": {
+   "threshold": 8,
+   "n_owners": 430300038788585251093212920765832814047664258371,
+   "delay_s": null
+  },
+  "0x49bd9989e31ad35b0a62c20be86335196a3135b1": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 864000
+  },
+  "0x4a4962275df8c60a80d3a25faec5aa7de116a746": {
+   "threshold": 4,
+   "n_owners": 844992325128860980504514795201820803460352201714,
+   "delay_s": null
+  },
+  "0x4a5107e1df3ee9d7049dfcff8728402e4480b7f2": {
+   "threshold": 2,
+   "n_owners": 1175872247833644464815029573789723739547454165275,
+   "delay_s": null
+  },
+  "0x4e834ca9310d7710a409638a7aa70cb22f141df3": {
+   "threshold": 2,
+   "n_owners": 648154479510278065241884051779197067128843196552,
+   "delay_s": null
+  },
+  "0x520cf70a2d0b3dfb7386a2bc9f800321f62a5c3a": {
+   "threshold": 2,
+   "n_owners": 554476562855337776552583101852269016878896167477,
+   "delay_s": null
+  },
+  "0x52882c7564faca480549145fac4d0b09ed0d9c17": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0x5a0aae59d09fccbddb6c6cceb07b7279367c3d2a": {
+   "threshold": 2,
+   "n_owners": 756337795658124847472285806791266642998821887378,
+   "delay_s": null
+  },
+  "0x68863fb8855b04509a835082478d6e3d0be4e61a": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 259200
+  },
+  "0x6bec1faf33183e1bc316984202ecc09d46ac92d5": {
+   "threshold": 5,
+   "n_owners": 1064657706737182645897291430568747681966023575989,
+   "delay_s": null
+  },
+  "0x6d903f6003cca6255d85cca4d3b5e5146dc33925": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0x7178d1a731a245f7620daa6db6111ef531a91d0d": {
+   "threshold": 2,
+   "n_owners": 1044898038174766950636343996057699783595600455087,
+   "delay_s": null
+  },
+  "0x7bb41c3008b3f03fe483b28b8db90e19cf07595c": {
+   "threshold": 2,
+   "n_owners": 869662620294144954151688723302403894535225493153,
+   "delay_s": null
+  },
+  "0x7fa320d0f1745f748837aaba65a0348ad11e0736": {
+   "threshold": 2,
+   "n_owners": 67712126259342684876799732088938108717618132751,
+   "delay_s": null
+  },
+  "0x81698f87c6482bf1ce9bfcfc0f103c4a0adf0af0": {
+   "threshold": 5,
+   "n_owners": 1338231397268579099805468407730193985816127005311,
+   "delay_s": null
+  },
+  "0x81f6e9914136da1a1d3b1efd14f7e0761c3d4cc7": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 604800
+  },
+  "0x82f08041f1bc1aa399320743f33f75cca482b25a": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0x892bb7eed71efb060ab90140e7825d8127991dd3": {
+   "threshold": 5,
+   "n_owners": 177265811035646857086845467147632059071151357007,
+   "delay_s": null
+  },
+  "0x8faacdc65de5d78975df4f9dc4b6548979ceb23a": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0x920f6a03eafc80c5c4119383aee56cecea115377": {
+   "threshold": 3,
+   "n_owners": 1362277699285984761740013605541041677075229667212,
+   "delay_s": null
+  },
+  "0x98d8899c3030741925be630c710a98b57f397c7a": {
+   "threshold": 4,
+   "n_owners": 839477271693098253844381848867928195384568635354,
+   "delay_s": null
+  },
+  "0x9e2b6378ee8ad2a4a95fe481d63caba8fb0ebbf9": {
+   "threshold": 3,
+   "n_owners": 1375034195335156342638643984402489766416304920475,
+   "delay_s": null
+  },
+  "0x9fe65a5418850015a9d8ad3ca50d6a0b9769fbe0": {
+   "threshold": 3,
+   "n_owners": 734084552349022304075758813512175665893544071073,
+   "delay_s": null
+  },
+  "0xa4fb12d15eb85dc9284a7df0adbc8b696edbbf1d": {
+   "threshold": 3,
+   "n_owners": 931752565329232969511621592275721406334920085776,
+   "delay_s": null
+  },
+  "0xaa8d118ca85c55a3b88c24fc6bcfcb764239bb12": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 0
+  },
+  "0xaada24358620d4638a2ee8788244c6f4b197ca16": {
+   "threshold": 8,
+   "n_owners": 1346111391636589640784457106407119084464150788924,
+   "delay_s": null
+  },
+  "0xb5b52c63067e490982874b0d0f559668bbe0c36b": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0xc21c108e268ba07a7ba0905283f076896a802aab": {
+   "threshold": 2,
+   "n_owners": 1114521442711872986278344126931529907746561683419,
+   "delay_s": null
+  },
+  "0xc91482a96e9c2a104d9298d1980eccf8c4dc764e": {
+   "threshold": 4,
+   "n_owners": 289557262406622528328585903516343371818327262167,
+   "delay_s": null
+  },
+  "0xc9da980ffabbe2bbe15d4734fdae5761b86b5fc3": {
+   "threshold": 3,
+   "n_owners": 359516157590976625735258964831147384400080875996,
+   "delay_s": null
+  },
+  "0xd6b95c960779c72b8c6752119849318e5d550574": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 0
+  },
+  "0xdc29bd10cb9000dffbb5aacd30606c66f07c866c": {
+   "threshold": 3,
+   "n_owners": 550883431873997400607255733602082723497526411462,
+   "delay_s": null
+  },
+  "0xdea75a312b2f99b5a7558c4636897b39c195e241": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0xe0d7755252873c4ef5788f7f45764e0e17610508": {
+   "threshold": 3,
+   "n_owners": 808645369742149501533406624637436185272084382400,
+   "delay_s": null
+  },
+  "0xe2a63438747d2c71e14bdc2cc222be89b1c11d03": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 86400
+  },
+  "0xe3eee3e0d2398799c884a47fc40c029c8e241852": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 172800
+  },
+  "0xe6774daaedf6e95b222cd3de09456ec0a46672c4": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 180
+  },
+  "0xef1462451c30ea7ad8555386226059fe837ca4ef": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 259200
+  },
+  "0xfd4b809ad88db6ca9dbb295a4b9d23bb0093f497": {
+   "threshold": null,
+   "n_owners": null,
+   "delay_s": 259200
+  }
+ }
+}
